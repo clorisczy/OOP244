@@ -1,0 +1,27 @@
+Script started on Fri 15 May 2026 11:59:54 AM EDT
+==88338== Memcheck, a memory error detector
+==88338== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==88338== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==88338== Command: as.exe
+==88338== 
+#### Workshop Zero ####
+Subject and Section:
+OOP244 NBB
+Name:
+Zeyi Cai
+Student Number:
+124719253
+Email:
+zcai25@myseneca.com
+Github repository URL:
+https://github.com/zcai25_seneca/OOP244
+==88338== 
+==88338== HEAP SUMMARY:
+==88338==     in use at exit: 0 bytes in 0 blocks
+==88338==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==88338== 
+==88338== All heap blocks were freed -- no leaks are possible
+==88338== 
+==88338== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 15 May 2026 11:59:55 AM EDT
