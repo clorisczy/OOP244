@@ -1,3 +1,11 @@
+// Zeyi Cai
+// zcai25@myseneca.ca
+// 124719253
+// oop244 NBB
+// 2026.6.3
+// I have done all the coding by myself (all wrote by myself but used ChatGPT 
+// for final debugging) 
+// and copied the code that my professor provided to complete my assignments.
 #include <iostream>
 #include "cstr.h"
 #include "CC.h"
