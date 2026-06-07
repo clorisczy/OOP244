@@ -1,0 +1,5 @@
+In this assignment, I learned how to create a class with private data members and public member functions. This assignment also asked me to create two constructors, a destructor for an object. The most important part was understanding dynamic memory allocation, that is when using new[] to apply memory, I must use delete[] to release the memory. I also learned why the string size needs strlen(name) + 1, because it needs space for the null terminator.
+
+One difficulty I had was to know when to all deallocate(). At first, I was confused about why I need to call it before set(). After testing and comparing the output, I understood that if I only set the pointer to nullptr, the old memory would be lost and cause a memory leak. 
+
+Overall, this assignment helped me understand encapsulation better.
