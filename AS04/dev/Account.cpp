@@ -12,7 +12,7 @@
 // Revision History
 // -----------------------------------------------------------
 // Name            Date            Reason
-/* Citation and Sources
+// Citation and Sources
 -----------------------------------------------------------
 Assignment 4
 Module: Whatever
@@ -32,10 +32,8 @@ With the help of ChatGPT for debugging and understanding the related concepts,
 I have done all the coding by myself and copied the code 
 that my professor provided to complete my work for function. 
 -----------------------------------------------------------
-*/
- 
 /////////////////////////////////////////////////////////////////
-***********************************************************************
+***********************************************************************/
 
 #include <iostream>
 #include "Account.h"
