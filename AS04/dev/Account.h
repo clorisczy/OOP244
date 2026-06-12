@@ -11,7 +11,27 @@
 // Revision History
 // -----------------------------------------------------------
 // Name            Date            Reason
-//
+/* Citation and Sources
+-----------------------------------------------------------
+Assignment 4
+Module: Whatever
+Filename: Account.cpp
+-----------------------------------------------------------
+Author: Zeyi Cai
+Student number: 124719253
+Email: zcai25@myseneca.ca
+Subject: OOP244 NBB
+-----------------------------------------------------------
+Revision History
+------- --------- ------------------------------------------
+Version Date      Reason
+V1.0    2026/6/12  Ready for submission
+-----------------------------------------------------------
+With the help of ChatGPT for debugging and understanding the related concepts,
+I have done all the coding by myself and copied the code 
+that my professor provided to complete my work for function. 
+-----------------------------------------------------------
+*/
 /////////////////////////////////////////////////////////////////
 ***********************************************************************/
 #ifndef SENECA_ACCOUNT_H_
