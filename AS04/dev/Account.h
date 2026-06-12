@@ -15,7 +15,7 @@ Citation and Sources
 -----------------------------------------------------------
 Assignment 4
 Module: Whatever
-Filename: Account.cpp
+Filename: Account.h
 -----------------------------------------------------------
 Author: Zeyi Cai
 Student number: 124719253
