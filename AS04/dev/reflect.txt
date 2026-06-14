@@ -1,0 +1,3 @@
+In this assignment, I learned  and practiced type conversion operators.
+The most important part for me was understanding how *this works. I learned that this is a pointer to the current object, and *this represents the current object itself. It was useful when I want to return a reference to the current Account object from operators.
+One challenge I had was understanding the prefix and postfix operators. Prefix return the updated object, while postfix operators must return a copy of the object before the change. Overall, this assignment helped me understand operator overloading much better. 
