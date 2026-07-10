@@ -1,0 +1,5 @@
+In this assignment, the most important part was understanding the Rule of Three prof taught us in class: destructor, copy constructor, and copy assignment operator. 
+Since the Numbers class uses pointer arrays and C-strings, I knew each object owns its own memory instead of just copying pointer addresses, and through that , I understand shallow copy and deep copy more clearly.
+At first, I was confused about using a temporary pointer and assigning it back to m_numbers. And finally, I understood that the temporary pointer is only used to hold the new larger array. 
+I also practiced file input and output using ifstream and ofstream. For example, I learned that fin.get(ch) is needed when counting newline characters because >> skips whitespace. 
+Overall, this assignment helped me understand class and resources, file I/O, and operator overloading in C++ much better.
