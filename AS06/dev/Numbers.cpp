@@ -82,7 +82,7 @@ namespace seneca {
     }
     std::ostream& Numbers::display(std::ostream& ostr) const{
         if(isEmpty()){
-            ostr<< "Empty list" << endl;
+            ostr<< "Empty list";
         }
         else{
             ostr.setf(ios::fixed);
