@@ -72,7 +72,15 @@ namespace seneca {
 
     ostream& Professor::title(ostream& ostr)const{
         Employee::title(ostr);
-        return ostr << " Teaching Subject | Sec # | $Dev Pay |";
+        // debug by ChatGPT (the space width issue)
+        ostr << ' ';
+        ostr.width(20);
+        ostr.fill(' ');
+        ostr.setf(ios::left);
+        ostr << "Teaching Subject";
+        ostr.unsetf(ios::left);
+        ostr << " | Sec # | $Dev Pay |";
+        return ostr; 
     }
 
     ostream& operator<<(ostream& ostr, const Professor& P ){
