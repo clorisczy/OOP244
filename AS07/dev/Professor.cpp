@@ -52,8 +52,8 @@ namespace seneca {
     ostream& Professor:: write(ostream& ostr)const{
         char name3print[21]{};
         if(m_subject) ut.strcpy(name3print, m_subject, 20);
-        ostr << " ";
         Employee::write(ostr);
+        ostr << " ";
         ostr.width(20);
         ostr.fill(' ');
         ostr.setf(ios::left);
@@ -73,7 +73,7 @@ namespace seneca {
     ostream& Professor::title(ostream& ostr)const{
         Employee::title(ostr);
         // debug by ChatGPT (the space width issue)
-        ostr << ' ';
+        ostr << " ";
         ostr.width(20);
         ostr.fill(' ');
         ostr.setf(ios::left);
