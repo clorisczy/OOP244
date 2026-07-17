@@ -75,7 +75,6 @@ namespace seneca {
         // debug by ChatGPT (the space width issue)
         ostr << ' ';
         ostr.width(20);
-        ostr.fill(' ');
         ostr.setf(ios::left);
         ostr << "Teaching Subject";
         ostr.unsetf(ios::left);
