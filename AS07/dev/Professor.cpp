@@ -45,7 +45,6 @@ namespace seneca {
         istr.getline(buffer, 1025, ',');
         ut.alocpy(m_subject, buffer);
         istr >> m_sections;
-        istr.ignore();
         return istr;
     }
 
