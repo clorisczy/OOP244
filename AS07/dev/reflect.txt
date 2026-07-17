@@ -1,0 +1,5 @@
+In Assignment 7, I learned inheritance, which is about how a derived class reuses the data members of a base class. 
+I created the Professor class by referencing the Employee class and added new data members. Then, it is easy to call the base-class constructor to implement the Professor functions, and to access the protected salary() function in Employee when calculating devPay.
+The main difficulty I encountered was matching the expected output on Matrix. Even a slight spacing differences caused the output match to fail. 
+I also had an input issue because both my read() function and the tester were ignoring the newline character. After reviewing the main.cpp, I realized the problem and removed the duplicated ignore() in read() function that I previously implemented.
+Overall, this assignment  improved my understanding of inheritance, dynamic memory, and stream formatting. 
