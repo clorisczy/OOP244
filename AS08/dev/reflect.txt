@@ -1,0 +1,12 @@
+In assignment 8, I reviewed how pure virtual functions and abstract base classes work in C++. 
+
+The Shape class is like an interface prof mentioned in class. It contains only pure virtual functions. LblShape is still an abstract class with draw() still not implemented. The Line and Rectangle classes are concrete classes as they override all pure virtual functions.
+
+I understood why the copy constructor and assignment operator should be kept and why they are deleted. ChatGPT told me this is one of the method to prevent shallow copying and possible double deletion.
+
+Another important part of is that the LblShape class uses a char pointer to store a C-string label and it is dynamically allocated. I finally clear understand the concept I missed in IPC144 that const char* is used to receive the address of the first character of a C-string. 
+E.g. char array [] = “Apple”;
+const char* ptr = array; (&array[0]) 
+So I can say const char* ptr = “Apple”, ptr here receives the address of array[0].
+
+This assignment helped me better understand inheritance, virtual functions, and formatted input and output.
