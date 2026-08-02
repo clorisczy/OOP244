@@ -53,7 +53,7 @@ namespace seneca {
          ostr << "??????????";
       }
       else {
-         for (int i = 0; i < m_indent * m_indentSize; i++) {
+         for (unsigned i = 0; i < m_indent * m_indentSize; i++) {
             ostr << ' ';
          }
 
@@ -84,14 +84,14 @@ namespace seneca {
      m_title(title, indent, indentSize, -1),
      m_exit(exit, indent, indentSize, 0), // The row number of the exit option should be set to zero.
      m_prompt("> ", indent, indentSize, -1) {
-   for (int i = 0; i < MaximumNumberOfMenuItems; i++) {
+   for (unsigned i = 0; i < MaximumNumberOfMenuItems; i++) {
       m_items[i] = nullptr;
    }
 }
     // Rule of 3
     // Destructor
     Menu::~Menu() {
-        for (int i = 0; i < MaximumNumberOfMenuItems; i++) {
+        for (unsigned i = 0; i < MaximumNumberOfMenuItems; i++) {
             delete m_items[i];
             m_items[i] = nullptr;
         }
@@ -115,7 +115,7 @@ namespace seneca {
             m_title.display() << std::endl;
         }
         // Display Menu Items
-        for (int i = 0; i < m_numItems; i++) {
+        for (unsigned i = 0; i < m_numItems; i++) {
             m_items[i]->display() << std::endl;
         }
         // Display the Exit Option
@@ -126,7 +126,7 @@ namespace seneca {
         return ut.getInt(0, m_numItems);
     }
 
-    
+
 
     
 

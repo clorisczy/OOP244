@@ -53,7 +53,7 @@ namespace seneca {
          ostr << "??????????";
       }
       else {
-         for (int i = 0; i < m_indent * m_indentSize; i++) {
+         for (unsigned i = 0; i < m_indent * m_indentSize; i++) {
             ostr << ' ';
          }
 
