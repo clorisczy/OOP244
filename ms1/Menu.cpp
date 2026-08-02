@@ -23,7 +23,9 @@ namespace seneca {
                    unsigned indentSize,int rowNumber) {
     // Constructor Validations
    if (content == nullptr || ut.isspace(content) ||
-       indent > 4 || indentSize > 4 || rowNumber > MaximumNumberOfMenuItems) {
+       indent > 4 || indentSize > 4 || 
+       // Debugged by ChatGPT
+       rowNumber > static_cast<int>(MaximumNumberOfMenuItems)) {
       m_content = nullptr;
       m_indent = 0;
       m_indentSize = 0;
