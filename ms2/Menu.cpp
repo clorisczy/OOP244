@@ -126,6 +126,12 @@ namespace seneca {
         return ut.getInt(0, m_numItems);
     }
 
+    size_t operator<<(std::ostream& ostr, const Menu& m) {
+      if (&ostr == &std::cout) {
+         return m.select();
+      }
+      return 0;
+   }
 
 
     
