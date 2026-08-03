@@ -32,6 +32,7 @@ namespace seneca {
     name[i] = '\0';
     // name: Up to 25 characters in 28 spaces, 
     // left-justified and padded with dots ('.').
+    ostr.unsetf(std::ios::right);
     ostr.setf(std::ios::left);
     ostr.fill('.');
     ostr.width(28);
@@ -51,7 +52,7 @@ namespace seneca {
    }
 
    bool Drink::order() {
-      Menu menu("Drink Size Selection", "Back", 1, 3);
+      Menu menu("Drink Size Selection", "Back", 3, 3);
       menu << "Small"
            << "Medium"
            << "Larg"

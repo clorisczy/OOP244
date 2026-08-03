@@ -54,7 +54,7 @@ namespace seneca {
    }
 
    bool Food::order() {
-      Menu foodMenu("Food Size Selection", "Back", 1, 3);
+      Menu foodMenu("Food Size Selection", "Back", 3, 3);
 
       foodMenu << "Adult" << "Child";
 
@@ -123,7 +123,7 @@ namespace seneca {
          i++;
       }
       foodName[i] = '\0';
-
+      ostr.unsetf(std::ios::right);
       ostr.setf(std::ios::left);
       ostr.fill('.');
       ostr.width(28);
