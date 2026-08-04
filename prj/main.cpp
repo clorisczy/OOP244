@@ -45,7 +45,7 @@ int main() {
    orderMenu << "Food" << "Drink";
    // Confirmation Menu
    Menu confirmMenu(
-      "You have bills that are not saved. Are you sue you want to exit?",
+      "You have bills that are not saved, are you sue you want to exit?",
       "No"); 
 
    confirmMenu << "Yes";
