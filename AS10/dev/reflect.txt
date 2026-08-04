@@ -1,0 +1,5 @@
+In this final assignment, I learned how function templates work. It can make the same function work with different data types. Before this assignment, I understood templates only in a basic way, but after writing dynaCopy, I saw the compiler can generate different versions of the same function for different types.
+The two-argument version of dynaCopy creates a new array and copies every element from the source array. The three-argument version can call two-augment version for implementation.
+The most difficult part for me was understanding the difference between T* and T*&. At first, I thought a normal pointer could also change the original pointer. After asking ChatGPT, I finally understood that T* can modify the data that the pointer points to, but T*& is needed when the function must change where the original pointer points.
+The prnArray function helped me practise template output and formatting. I had to make sure commas appeared only between elements and not after the final element.
+Overall, this assignment was clear and helpful. 
